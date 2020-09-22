@@ -1,6 +1,11 @@
 
 const models = require('../models')
 
+
+exports.get_typescript = function(req,res,next) {
+    res.render('typescript', { title: 'Belajar Typescript', user: req.user });
+}
+
 exports.get_landing = function(req,res,next) {
     res.render('landing', { title: 'Express', user: req.user });
 }

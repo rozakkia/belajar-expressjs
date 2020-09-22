@@ -1,0 +1,15 @@
+doctype html
+html(lang='en')
+  include common/head.pug
+  +head(title)
+  body
+    header  
+      include common/navbar.pug
+      +navbar()
+      .container 
+        .row
+            h1.mt-5 DOM 
+
+    include common/footer.pug
+    include javascript/main.js
+    +footer()

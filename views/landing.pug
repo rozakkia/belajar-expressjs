@@ -10,8 +10,8 @@ html(lang='en')
         .row
           .col-md-6.order-md-1.text-center.text-md-left.pr.md-5
             h1.mb-3 Minimum Viable Landing Page
-            p.lead This tutorial teaches you how to build a NodeJs web Application covering key topics.
-            p.lead.mb-4 Learn how to launch a landing page and start collecting sales leads.
+            p.lead 
+            p.lead.mb-4
             form(action="/", method="POST")
               .input-group.mb-3
                 input(name="lead_email" type="email", placeholder="Enter your email address").form-control
@@ -41,3 +41,4 @@ html(lang='en')
     include common/footer.pug
     +footer()
     script(src='/javascripts/leads.js')
+    script(src='/javascripts/main.js')
